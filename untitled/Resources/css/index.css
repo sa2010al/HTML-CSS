@@ -1,0 +1,68 @@
+/* selects div element in the html */
+
+div {
+    background-color: antiquewhite;
+    /* Change background color */
+    height: 100%;
+    padding: 10px;
+    /* adds padding arround the div content */
+    font-family: sans-serif;
+    /* All elements in the div font family is sans-serif*/
+}
+
+
+/* Text aligns to cnetre after selecting h2 element */
+
+h2 {
+    text-align: center;
+}
+
+
+/* select p element having class description */
+
+p.description {
+    font-size: 21px;
+    color: rgb(56, 56, 56);
+}
+
+
+/* selects all elements having id Date */
+
+#Date {
+    color: rgb(102, 100, 100);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Select image in the html */
+
+img {
+    max-width: 250px;
+    max-height: 150px;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+
+/* select elements having class learn inside div */
+
+div .learn {
+    text-align: center;
+}
+
+.learn a {
+    color: lightseagreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* On hovering over a element inside class learn changes the color */
+
+.learn a:hover {
+    color: lightslategray;
+}
